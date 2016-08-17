@@ -1,0 +1,27 @@
+{
+  "name": "repetitive-task",
+  "version": "0.0.0",
+  "description": "Base layer for building time-based repetitive tasks",
+  "main": "lib/repetitive-task.js",
+  "scripts": {
+    "lint": "standard",
+    "nodeunit": "nodeunit tests/**",
+    "test": "npm run lint && npm run nodeunit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clipper-digital/repetitive-task.git"
+  },
+  "author": "Scott González <scott.gonzalez@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clipper-digital/repetitive-task/issues"
+  },
+  "homepage": "https://github.com/clipper-digital/repetitive-task#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "nodeunit": "^0.9.1",
+    "sinon": "^1.17.5",
+    "standard": "^6.0.8"
+  }
+}
