@@ -1,6 +1,6 @@
 {
   "name": "repetitive-task",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Base layer for building time-based repetitive tasks",
   "main": "lib/repetitive-task.js",
   "scripts": {
