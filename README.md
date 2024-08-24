@@ -14,8 +14,11 @@ Simple task that always runs
 const RepetitiveTask = require('repetitive-task')
 
 class CpuMonitor extends RepetitiveTask {
-  _process (task) {
-    console.log(process.cpuUsage())
+  _process (_task) {
+    return new Promise((resolve) => {
+      console.log(process.cpuUsage())
+      resolve()
+    })
   }
 }
 
