@@ -19,7 +19,7 @@ class CpuMonitor extends RepetitiveTask {
   }
 }
 
-const monitor = new CpuMonitor(60 * 1000)
+const monitor = new CpuMonitor(60)
 monitor.start()
 ```
 
@@ -53,7 +53,7 @@ class Gardener extends RepetitiveTask {
   }
 }
 
-const gardener = new Gardener(12 * 60 * 60 * 1000)
+const gardener = new Gardener(12 * 60 * 60)
 gardener.start()
 ```
 
